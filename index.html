@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Top Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">eSSL<span>Project</span></div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger" id="hamburgerMenu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Main Hero Landing Screen -->
+    <section id="home" class="hero-section">
+        <div class="hero-left">
+            <h1>HI, I'M <span class="accent-text">Rajit Kumar</span></h1>
+            <h2>A PASSIONATE WEB DEVELOPER & WEB DESIGNER</h2>
+            <div class="hero-actions">
+                <a href="#projects" class="btn btn-primary">VIEW MY WORK</a>
+                <a href="images/my-resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">RESUME</a>
+            </div>
+        </div>
+        <div class="hero-right">
+            <img src="images/my-pic.jpeg" alt="Rajit Kumar" class="profile-img">
+        </div>
+    </section>
+
+    <!-- About & Skills -->
+    <section id="about" class="about-section">
+        <h3 class="section-title">About Me</h3>
+        <p class="section-desc">I am a Software Developer and UI/UX designer focused on building clean, responsive and visually stunning web applications.</p>
+        <div class="skills-container">
+            <div class="skill-pill">HTML5</div>
+            <div class="skill-pill">CSS3</div>
+            <div class="skill-pill">JavaScript</div>
+            <div class="skill-pill">UI/UX Design</div>
+        </div>
+    </section>
+
+    <!-- Projects Portfolio Section -->
+    <section id="projects" class="projects-section">
+        <h3 class="section-title">My Projects</h3>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="images/project1.jpg" alt="KGP Mall" class="project-thumb">
+                <h4>KGP MALL</h4>
+                <p>A high-performance modern E - Commerce Website.</p>
+                <div class="project-links">
+                    <a href="https://www.kgpmall.com/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="images/project2.jpg" alt="nypunYug.com" class="project-thumb">
+                <h4>NypunYug</h4>
+                <p>An interactive, fully responsive universal search engine <b>nypun.com</b> just similar to <br> <i>IndiaMart.com</i> &amp; <i>Sulekha.com</i></p>
+                <div class="project-links">
+                    <a href="https://www.nypun.com/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact-section">
+        <h3 class="section-title">Contact Me</h3>
+        <form class="ui-form" id="mainContactForm">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email Address" required>
+            <textarea name="message" placeholder="Write your message here..." rows="5" required></textarea>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
